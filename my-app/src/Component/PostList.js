@@ -3,19 +3,18 @@ import PostListItem from './PostListItem.js';
 import styled from 'styled-components';
 
 const Loader = styled.div`
-  margin: 0 auto;
-  width: 50px;
-  height: 50px;
-  border: 4px solid rgba(200,200,200,.7);
-  border-radius: 50%;
-  border-top-color: #8B4513;
-  animation: spin 1s ease-in-out infinite;
-  -webkit-animation: spin 1s ease-in-out infinite;
-}
-
-@keyframes spin {
-  to { -webkit-transform: rotate(360deg); }
-}
+        margin: 0 auto;
+        width: 50px;
+        height: 50px;
+        border: 4px solid rgba(200,200,200,.7);
+        border-radius: 50%;
+        border-top-color: #8B4513;
+        animation: spin 1s ease-in-out infinite;
+    }
+    
+    @keyframes spin {
+        to { -webkit-transform: rotate(360deg); }
+    }
 `;
 
 
