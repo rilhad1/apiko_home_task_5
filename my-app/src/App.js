@@ -1,6 +1,5 @@
 import React from 'react';
 
-import data from './data.js';
 import PostList from './Component/PostList.js';
 import SearchBar from './Component/SearchBar.js';
 import MoreButton from './Component/MoreButton.js';
